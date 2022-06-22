@@ -1,0 +1,48 @@
+header{
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2{
+    color: #3ad020;
+    font-size: 2.5rem;
+    font-family: fantasy;
+}
+.container form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.container form input{
+    width: 50%;
+    margin: .5rem 0;
+    padding: 0 .5rem;
+    height: 2rem;
+    font-size: 1.1rem;
+}
+input:focus{
+    outline: none;
+}
+#btn{
+    background: #3ad020;
+    outline: none;
+    border: none;
+    width: 54%;
+    border-radius: 5px;
+}
+
+.table{
+    text-align: center;
+}
